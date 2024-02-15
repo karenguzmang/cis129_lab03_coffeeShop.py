@@ -1,16 +1,12 @@
 nbrOfCoffees = int(input('number of coffee bought'))
 nbrOfMuffins = int(input('number of muffins bought'))
-nbrOfWaters = int(input('number of water bought'))
-nbrOfCookies = int(input('number of cookies'))
 
 pricecoffee = 5
 pricemuffin = 4
-pricewater = 2
-pricecookie = 3
+
 tax = .06
 
 coffeesubtotal = nbrOfCoffees = pricecoffee
 muffinsubtotal = nbrOfMuffins = pricemuffin
-watersubtotal = nbrOfWaters = pricewater
-cookiesubtotal = nbrOfCookies = pricecookie
-subtotal = coffeesubtotal = muffinsubtotal = watersubtotal = cookiesubtotal
+
+subtotal = coffeesubtotal = muffinsubtotal
